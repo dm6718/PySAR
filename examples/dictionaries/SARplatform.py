@@ -62,7 +62,7 @@ def plat_dict(aux = []):
         R_c = pos[npulses/2]
     else:
         R_c = np.mean(
-                pos[npulses/2-1:npulses/2+1],
+                pos[npulses//2-1:npulses//2+1],
                 axis = 0)
                     
     #Coherent integration angle
