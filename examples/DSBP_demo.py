@@ -96,7 +96,7 @@ extent = [u.min(), u.max(), v.min(), v.max()]
 
 plt.subplot(1,2,1)
 plt.title('Full Backprojection')
-imgTools.imshow(img_bp[177-N/2:177+N/2,202-N/2:202+N/2], dB_scale = [-25,0], extent = extent)
+imgTools.imshow(img_bp[177-N//2:177+N//2,202-N//2:202+N//2], dB_scale = [-25,0], extent = extent)
 plt.xlabel('meters'); plt.ylabel('meters')
 
 plt.subplot(1,2,2)
